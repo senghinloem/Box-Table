@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    height: 120vh;
+    background-color: rgb(223, 217, 217) ;
+}
+nav{
+    background-color: rgb(192, 188, 188);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+nav ul li.active-link{
+    background-color: gray;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+header{
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+}
+header h1{
+    font-size: 60px;
+}
+section{
+    height: 100vh;
+}
+section.home-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    border-radius: 20px;
+    background-color: white;
+    width: 60vh;
+    height: 40vh;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+.about-container{
+    display: flex;
+    flex: 5;
+}
+.content{
+    flex: 4;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.about-box{
+    width: 140vh;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+}
+.content p{
+    width: 80%;
+}
+.content h1, p{
+    margin-top: 20px;
+}
+.side-box{
+    flex: 1;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.side-box .card{
+    width: 50vh;
+    height: 25vh;
+    margin-top: 20px;
+}
+table{
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+}
+caption{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+table, th, td{
+    border: none;
+    border-collapse: collapse;
+}
+th, td{
+    width: 25%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+th:nth-child(1), td:nth-child(1){
+    background: rgb(126, 126, 216);
+}
+th:nth-child(2), td:nth-child(2){
+    background-color: rgb(77, 77, 175);
+}
+th:nth-child(3), td:nth-child(3){
+    background-color: rgb(38, 38, 131);
+}
+th:nth-child(4), td:nth-child(4){
+    background-color: rgb(21, 21, 78);
+}
+
